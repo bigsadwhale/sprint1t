@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <style>
+        input {
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <h1 id="header">
+        Калькулятор
+    </h1>
+
+    <p>
+        Введи два числа, а я их сложу
+    </p>
+
+    <form id="form">
+        <input type="number" id="firstNumberField"> +
+        <input type="number" id="secondNumberField">
+        <button id="calcButton"> = </button>
+        <input type="number" disabled id="resultField">
+    </form>
+
+    <script>
+        const body = document.getElementById("body");
+        const header = document.getElementById("header");
+        const form = document.getElementById("form");
+        const firstNumberField = document.getElementById("firstNumberField");
+        const secondNumberField = document.getElementById("secondNumberField");
+        const resultField = document.getElementById("resultField");
+        const calcButton = document.getElementById("calcButton");
+
+        function sum() {
+            const sum = Number(firstNumberField.value) + Number(secondNumberField.value);
+            resultField.value = sum;
+            // console.log("sum calculated");
+        }
+
+        calcButton.addEventListener("click", function (event) {
+            event.preventDefault();
+            sum();
+            // console.log("button clicked");
+        });
+
+        // form.addEventListener("click", function (event) {
+        //     console.log("form clicked");
+        // });
+
+        // header.addEventListener("click", function (event) {
+        //     console.log("header clicked");
+        // });
+
+        // body.addEventListener("click", function (event) {
+        //     console.log("body clicked");
+        // });
+
+</script>
+</body>
+
+</html>
