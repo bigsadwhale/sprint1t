@@ -36,9 +36,13 @@ class Truck extends Transport
 	}	
 }
 
+$ferrari = new Transport();
+
 $ferrari->wheels = 4;
 $ferrari->passengers = 2; // раз уж Феррари, то пусть будет шикарный двухместный родстер
 $ferrari->speed = 300;
+
+$lada = new Transport();
 
 $lada->wheels = 4;
 $lada->passengers = 5; // зато в практичную Ладу ещё четверых попутчиков можно посадить
@@ -48,6 +52,7 @@ $ferrari->move(); // Я еду с максимальной скоростью 30
 $lada->move(); // Я еду с максимальной скоростью 130 км/ч
 
 $kamaz = new Truck();
+
 $kamaz->wheels = 6;
 $kamaz->passengers = 3;
 $kamaz->speed = 110;
