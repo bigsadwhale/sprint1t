@@ -1,1 +1,139 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T04:22:41.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.22" etag="tvkJtWFk2SBtVeGCccFW" type="github"><diagram name="Страница 1" id="H-5WeH5gkAR_On494XRh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-22T05:51:48.338Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="noPFP2it6WH_n3RSp2eL" version="20.8.22" type="github">
+  <diagram name="Страница 1" id="H-5WeH5gkAR_On494XRh">
+    <mxGraphModel dx="2087" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1qda926mGo-2LyZqN5Bh-11" value="" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="360" width="480" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-2" value="Приобрести товар в интернет-магазине" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1qda926mGo-2LyZqN5Bh-11">
+          <mxGeometry width="480" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-6" value="A0" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=bottom;whiteSpace=wrap;rounded=0;spacing=2;spacingRight=2;" vertex="1" parent="1qda926mGo-2LyZqN5Bh-11">
+          <mxGeometry x="409.75609756097555" y="213.33333333333331" width="70.24390243902438" height="26.666666666666664" as="geometry" />
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-13" value="Закон о защите ПД" style="endArrow=classic;html=1;rounded=0;horizontal=0;verticalAlign=bottom;spacingRight=4;entryX=0.083;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;align=center;" edge="1" parent="1">
+          <mxGeometry x="-0.0037" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="120" as="sourcePoint" />
+            <mxPoint x="379.84000000000015" y="359.03999999999974" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-16" value="Клиент" style="endArrow=classic;html=1;rounded=0;horizontal=0;verticalAlign=bottom;spacingRight=4;entryX=0.083;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;spacing=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="840" as="sourcePoint" />
+            <mxPoint x="359.84000000000015" y="599.0399999999997" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-17" value="Договор-оферта интернет-магазина" style="endArrow=classic;html=1;rounded=0;horizontal=0;verticalAlign=bottom;spacingRight=4;" edge="1" parent="1">
+          <mxGeometry x="-0.0037" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="421" y="120" as="sourcePoint" />
+            <mxPoint x="421" y="359" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-18" value="Договор курьерской службы" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;horizontal=0;verticalAlign=bottom;spacingRight=3;" edge="1" parent="1">
+          <mxGeometry x="-0.0057" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="120" as="sourcePoint" />
+            <mxPoint x="460" y="359.9999999999998" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-20" value="Каталог товаров" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;verticalAlign=bottom;spacingRight=4;spacing=4;align=center;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="380" as="sourcePoint" />
+            <mxPoint x="200" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-21" value="Остатки на складе" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.165;entryDx=0;entryDy=0;verticalAlign=bottom;spacingRight=4;entryPerimeter=0;spacing=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="420" as="sourcePoint" />
+            <mxPoint x="200" y="419.60000000000014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-22" value="ПД клиента" style="endArrow=classic;html=1;rounded=0;entryX=0.003;entryY=0.329;entryDx=0;entryDy=0;verticalAlign=bottom;spacingRight=4;entryPerimeter=0;spacing=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="460" as="sourcePoint" />
+            <mxPoint x="201.44000000000005" y="458.96000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-23" value="Выбранный способ оплаты" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;verticalAlign=bottom;spacingRight=4;spacing=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="500" as="sourcePoint" />
+            <mxPoint x="200" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-24" value="Менеджер магазина" style="endArrow=classic;html=1;rounded=0;horizontal=0;verticalAlign=bottom;spacingRight=4;entryX=0.165;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;spacing=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="840" as="sourcePoint" />
+            <mxPoint x="399.1999999999998" y="600.2399999999998" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-25" value="Курьерская служба" style="endArrow=classic;html=1;rounded=0;horizontal=0;verticalAlign=bottom;spacingRight=4;entryX=0.25;entryY=1;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="840" as="sourcePoint" />
+            <mxPoint x="440" y="599.9999999999998" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-26" value="Сервис интернет-эквайринга" style="endArrow=classic;html=1;rounded=0;horizontal=0;verticalAlign=bottom;spacingRight=4;entryX=0.336;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;spacing=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="840" as="sourcePoint" />
+            <mxPoint x="481.2800000000002" y="600.9599999999998" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-27" value="Сайт интернет-магазина" style="endArrow=classic;html=1;rounded=0;horizontal=0;verticalAlign=bottom;spacingRight=4;entryX=0.418;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;spacing=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="840" as="sourcePoint" />
+            <mxPoint x="520.6400000000003" y="599.76" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-28" value="Адрес доставки" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.667;entryDx=0;entryDy=0;verticalAlign=bottom;spacingRight=4;entryPerimeter=0;spacing=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="540" as="sourcePoint" />
+            <mxPoint x="200" y="540.0800000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-29" value="Документация эквайринга" style="endArrow=classic;html=1;rounded=0;horizontal=0;verticalAlign=bottom;spacingRight=4;entryX=0.586;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0038" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="120" as="sourcePoint" />
+            <mxPoint x="501.2800000000002" y="360.72" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-30" value="Выписка с банковского счета" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;verticalAlign=bottom;spacingRight=4;spacing=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="580" as="sourcePoint" />
+            <mxPoint x="200" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-31" value="Полученный товар" style="endArrow=classic;html=1;rounded=0;entryX=0.003;entryY=0.329;entryDx=0;entryDy=0;verticalAlign=bottom;spacingRight=4;entryPerimeter=0;spacing=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.0009" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="440" as="sourcePoint" />
+            <mxPoint x="921.44" y="439.48" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-32" value="Документы о доставке" style="endArrow=classic;html=1;rounded=0;verticalAlign=bottom;spacingRight=4;spacing=4;exitX=1;exitY=0.666;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0009" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="479.84000000000003" as="sourcePoint" />
+            <mxPoint x="920" y="480" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qda926mGo-2LyZqN5Bh-33" value="Сохраненный на сайте заказ для аналитики" style="endArrow=classic;html=1;rounded=0;verticalAlign=bottom;spacingRight=4;spacing=4;exitX=1;exitY=0.834;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0009" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="520.16" as="sourcePoint" />
+            <mxPoint x="920" y="520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
